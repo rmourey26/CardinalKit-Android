@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.common
+package io.quantumone.cardinalkit.presentation.common
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize

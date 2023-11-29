@@ -1,8 +1,8 @@
-package edu.stanford.cardinalkit.domain.usecases.tasklogs.data.repository
+package io.quantumone.cardinalkit.domain.usecases.tasklogs.data.repository
 
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.domain.models.tasks.CKTaskLog
-import edu.stanford.cardinalkit.domain.repositories.TaskLogRepository
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.domain.models.tasks.CKTaskLog
+import io.quantumone.cardinalkit.domain.repositories.TaskLogRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 

@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.profile
+package io.quantumone.cardinalkit.presentation.profile
 
 import android.content.Intent
 import android.net.Uri
@@ -39,12 +39,12 @@ import androidx.compose.ui.unit.sp
 import androidx.core.os.bundleOf
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
-import edu.stanford.cardinalkit.R
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.presentation.common.ProgressIndicator
-import edu.stanford.cardinalkit.presentation.navigation.Screens
-import edu.stanford.cardinalkit.presentation.profile.components.ProfileCard
-import edu.stanford.cardinalkit.presentation.profile.components.UserCard
+import io.quantumone.cardinalkit.R
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.presentation.common.ProgressIndicator
+import io.quantumone.cardinalkit.presentation.navigation.Screens
+import io.quantumone.cardinalkit.presentation.profile.components.ProfileCard
+import io.quantumone.cardinalkit.presentation.profile.components.UserCard
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

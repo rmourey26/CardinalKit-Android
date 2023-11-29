@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.profile.components
+package io.quantumone.cardinalkit.presentation.profile.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column

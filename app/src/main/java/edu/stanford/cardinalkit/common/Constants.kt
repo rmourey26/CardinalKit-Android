@@ -1,9 +1,9 @@
-package edu.stanford.cardinalkit.common
+package io.quantumone.cardinalkit.common
 
 object Constants {
 
     // General
-    const val APP_PACKAGE_NAME = "edu.stanford.cardinalkit"
+    const val APP_PACKAGE_NAME = "io.quantumone.cardinalkit"
     const val TAG = "CardinalKit"
 
     // Firebase paths
@@ -58,6 +58,6 @@ object Constants {
     const val AUTH_USE_CASES = "authUseCases"
 
     // Intents
-    const val SURVEY_NAME = "edu.stanford.cardinalkit.SURVEY_NAME"
-    const val TASK_ID = "edu.stanford.cardinalkit.TASK_ID"
+    const val SURVEY_NAME = "io.quantumone.cardinalkit.SURVEY_NAME"
+    const val TASK_ID = "io.quantumone.cardinalkit.TASK_ID"
 }

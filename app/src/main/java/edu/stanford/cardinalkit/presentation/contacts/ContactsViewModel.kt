@@ -1,13 +1,13 @@
-package edu.stanford.cardinalkit.presentation.contacts
+package io.quantumone.cardinalkit.presentation.contacts
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import edu.stanford.cardinalkit.common.Constants
-import edu.stanford.cardinalkit.domain.models.Contact
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.domain.usecases.contacts.ContactsUseCases
+import io.quantumone.cardinalkit.common.Constants
+import io.quantumone.cardinalkit.domain.models.Contact
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.domain.usecases.contacts.ContactsUseCases
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 import javax.inject.Named

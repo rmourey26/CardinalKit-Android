@@ -1,6 +1,6 @@
 // ktlint-disable filename
 
-package edu.stanford.cardinalkit.ui.theme
+package io.quantumone.cardinalkit.ui.theme
 
 import android.app.Activity
 import android.os.Build

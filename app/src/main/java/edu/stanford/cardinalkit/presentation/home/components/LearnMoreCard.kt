@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.home.components
+package io.quantumone.cardinalkit.presentation.home.components
 
 import android.content.Intent
 import android.net.Uri
@@ -21,7 +21,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.os.bundleOf
-import edu.stanford.cardinalkit.R
+import io.quantumone.cardinalkit.R
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable

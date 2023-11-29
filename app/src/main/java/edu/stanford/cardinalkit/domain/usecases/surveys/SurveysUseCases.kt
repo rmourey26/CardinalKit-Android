@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.domain.usecases.surveys
+package io.quantumone.cardinalkit.domain.usecases.surveys
 
 data class SurveysUseCases(
     val uploadSurveyResult: UploadSurveyResult,

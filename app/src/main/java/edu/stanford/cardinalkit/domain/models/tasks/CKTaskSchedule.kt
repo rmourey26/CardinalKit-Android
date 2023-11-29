@@ -1,6 +1,6 @@
-package edu.stanford.cardinalkit.domain.models.tasks
+package io.quantumone.cardinalkit.domain.models.tasks
 
-import edu.stanford.cardinalkit.common.toLocalDate
+import io.quantumone.cardinalkit.common.toLocalDate
 import java.time.LocalDate
 import java.time.temporal.ChronoUnit
 import java.util.*

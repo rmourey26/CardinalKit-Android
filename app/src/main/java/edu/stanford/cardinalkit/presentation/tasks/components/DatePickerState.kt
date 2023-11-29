@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.tasks.components
+package io.quantumone.cardinalkit.presentation.tasks.components
 
 /*
 MIT License

@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit
+package io.quantumone.cardinalkit
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

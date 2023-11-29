@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit
+package io.quantumone.cardinalkit
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.main.components
+package io.quantumone.cardinalkit.presentation.main.components
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.material3.Badge
@@ -15,8 +15,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
-import edu.stanford.cardinalkit.presentation.navigation.Screens
-import edu.stanford.cardinalkit.presentation.tasks.TasksViewModel
+import io.quantumone.cardinalkit.presentation.navigation.Screens
+import io.quantumone.cardinalkit.presentation.tasks.TasksViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

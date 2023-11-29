@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.profile
+package io.quantumone.cardinalkit.presentation.profile
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -19,10 +19,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import edu.stanford.cardinalkit.R
-import edu.stanford.cardinalkit.presentation.navigation.Screens
-import edu.stanford.cardinalkit.presentation.onboarding.DisplayList
-import edu.stanford.cardinalkit.presentation.onboarding.data
+import io.quantumone.cardinalkit.R
+import io.quantumone.cardinalkit.presentation.navigation.Screens
+import io.quantumone.cardinalkit.presentation.onboarding.DisplayList
+import io.quantumone.cardinalkit.presentation.onboarding.data
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

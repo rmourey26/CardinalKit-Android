@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.main
+package io.quantumone.cardinalkit.presentation.main
 
 import android.annotation.SuppressLint
 import androidx.compose.animation.ExperimentalAnimationApi
@@ -9,9 +9,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
-import edu.stanford.cardinalkit.presentation.main.components.BottomNavigationBar
-import edu.stanford.cardinalkit.presentation.navigation.CKNavHost
-import edu.stanford.cardinalkit.presentation.navigation.Screens
+import io.quantumone.cardinalkit.presentation.main.components.BottomNavigationBar
+import io.quantumone.cardinalkit.presentation.navigation.CKNavHost
+import io.quantumone.cardinalkit.presentation.navigation.Screens
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Preview

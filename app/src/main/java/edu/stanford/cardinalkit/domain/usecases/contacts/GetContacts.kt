@@ -1,6 +1,6 @@
-package edu.stanford.cardinalkit.domain.usecases.contacts
+package io.quantumone.cardinalkit.domain.usecases.contacts
 
-import edu.stanford.cardinalkit.domain.repositories.ContactsRepository
+import io.quantumone.cardinalkit.domain.repositories.ContactsRepository
 
 class GetContacts(
     private val repository: ContactsRepository

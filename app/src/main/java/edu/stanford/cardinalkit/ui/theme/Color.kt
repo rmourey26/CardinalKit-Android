@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.ui.theme
+package io.quantumone.cardinalkit.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.login
+package io.quantumone.cardinalkit.presentation.login
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
@@ -8,9 +8,9 @@ import com.google.android.gms.auth.api.identity.BeginSignInResult
 import com.google.android.gms.auth.api.identity.SignInClient
 import com.google.firebase.auth.AuthCredential
 import dagger.hilt.android.lifecycle.HiltViewModel
-import edu.stanford.cardinalkit.common.Constants
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.domain.usecases.auth.AuthUseCases
+import io.quantumone.cardinalkit.common.Constants
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.domain.usecases.auth.AuthUseCases
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import javax.inject.Inject

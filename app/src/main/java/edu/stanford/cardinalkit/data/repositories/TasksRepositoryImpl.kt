@@ -1,15 +1,15 @@
-package edu.stanford.cardinalkit.data.repositories
+package io.quantumone.cardinalkit.data.repositories
 
 import android.content.Context
 import com.google.firebase.firestore.CollectionReference
 import com.google.gson.Gson
 import com.google.gson.JsonParseException
 import com.google.gson.reflect.TypeToken
-import edu.stanford.cardinalkit.common.Config
-import edu.stanford.cardinalkit.common.Constants
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.domain.models.tasks.CKTask
-import edu.stanford.cardinalkit.domain.repositories.TasksRepository
+import io.quantumone.cardinalkit.common.Config
+import io.quantumone.cardinalkit.common.Constants
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.domain.models.tasks.CKTask
+import io.quantumone.cardinalkit.domain.repositories.TasksRepository
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.flow

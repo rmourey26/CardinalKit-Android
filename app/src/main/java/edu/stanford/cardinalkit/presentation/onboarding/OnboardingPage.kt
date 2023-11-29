@@ -1,7 +1,7 @@
-package edu.stanford.cardinalkit.presentation.onboarding
+package io.quantumone.cardinalkit.presentation.onboarding
 
 import androidx.annotation.DrawableRes
-import edu.stanford.cardinalkit.R
+import io.quantumone.cardinalkit.R
 
 sealed class OnboardingPage(
     @DrawableRes

@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.welcome
+package io.quantumone.cardinalkit.presentation.welcome
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -26,8 +26,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import edu.stanford.cardinalkit.R
-import edu.stanford.cardinalkit.presentation.navigation.Screens
+import io.quantumone.cardinalkit.R
+import io.quantumone.cardinalkit.presentation.navigation.Screens
 
 @Composable
 fun JoinStudyScreen(

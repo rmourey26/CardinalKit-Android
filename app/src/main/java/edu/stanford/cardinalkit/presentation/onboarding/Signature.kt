@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.onboarding
+package io.quantumone.cardinalkit.presentation.onboarding
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -34,8 +34,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import edu.stanford.cardinalkit.R
-import edu.stanford.cardinalkit.presentation.navigation.Screens
+import io.quantumone.cardinalkit.R
+import io.quantumone.cardinalkit.presentation.navigation.Screens
 import se.warting.signaturepad.SignaturePadAdapter
 import se.warting.signaturepad.SignaturePadView
 

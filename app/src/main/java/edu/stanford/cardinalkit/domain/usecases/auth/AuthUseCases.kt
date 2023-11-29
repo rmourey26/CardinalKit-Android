@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.domain.usecases.auth
+package io.quantumone.cardinalkit.domain.usecases.auth
 
 data class AuthUseCases(
     val signInWithEmail: SignInWithEmail,

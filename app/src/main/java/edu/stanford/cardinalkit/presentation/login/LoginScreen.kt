@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.login
+package io.quantumone.cardinalkit.presentation.login
 
 import android.app.Activity.RESULT_OK
 import android.widget.Toast
@@ -56,10 +56,10 @@ import androidx.navigation.NavHostController
 import com.google.android.gms.auth.api.identity.BeginSignInResult
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.GoogleAuthProvider
-import edu.stanford.cardinalkit.R
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.presentation.common.ProgressIndicator
-import edu.stanford.cardinalkit.presentation.navigation.Screens
+import io.quantumone.cardinalkit.R
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.presentation.common.ProgressIndicator
+import io.quantumone.cardinalkit.presentation.navigation.Screens
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

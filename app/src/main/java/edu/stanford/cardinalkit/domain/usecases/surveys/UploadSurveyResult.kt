@@ -1,6 +1,6 @@
-package edu.stanford.cardinalkit.domain.usecases.surveys
+package io.quantumone.cardinalkit.domain.usecases.surveys
 
-import edu.stanford.cardinalkit.domain.repositories.SurveyRepository
+import io.quantumone.cardinalkit.domain.repositories.SurveyRepository
 
 class UploadSurveyResult(
     private val repository: SurveyRepository

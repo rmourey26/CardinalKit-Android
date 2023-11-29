@@ -1,6 +1,6 @@
-package edu.stanford.cardinalkit.domain.usecases.auth
+package io.quantumone.cardinalkit.domain.usecases.auth
 
-import edu.stanford.cardinalkit.domain.repositories.AuthRepository
+import io.quantumone.cardinalkit.domain.repositories.AuthRepository
 
 class SignUpWithEmail(
     private val repository: AuthRepository

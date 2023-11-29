@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.domain.models.tasks
+package io.quantumone.cardinalkit.domain.models.tasks
 
 import java.util.*
 

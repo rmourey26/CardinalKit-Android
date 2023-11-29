@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.navigation
+package io.quantumone.cardinalkit.presentation.navigation
 
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
@@ -8,22 +8,22 @@ import androidx.navigation.NavHostController
 import com.google.accompanist.navigation.animation.AnimatedNavHost
 import com.google.accompanist.navigation.animation.composable
 import com.google.accompanist.pager.ExperimentalPagerApi
-import edu.stanford.cardinalkit.presentation.RegisterScreen
-import edu.stanford.cardinalkit.presentation.contacts.ContactsScreen
-import edu.stanford.cardinalkit.presentation.home.HomeScreen
-import edu.stanford.cardinalkit.presentation.login.ForgotPassword
-import edu.stanford.cardinalkit.presentation.login.LoginScreen
-import edu.stanford.cardinalkit.presentation.login.RegisterMethod
-import edu.stanford.cardinalkit.presentation.login.SignInMethod
-import edu.stanford.cardinalkit.presentation.main.MainScreen
-import edu.stanford.cardinalkit.presentation.onboarding.OnboardingScreen
-import edu.stanford.cardinalkit.presentation.onboarding.Review
-import edu.stanford.cardinalkit.presentation.onboarding.Signature
-import edu.stanford.cardinalkit.presentation.onboarding.WelcomeScreen
-import edu.stanford.cardinalkit.presentation.profile.ProfileScreen
-import edu.stanford.cardinalkit.presentation.profile.ReviewConsent
-import edu.stanford.cardinalkit.presentation.tasks.TasksScreen
-import edu.stanford.cardinalkit.presentation.welcome.JoinStudyScreen
+import io.quantumone.cardinalkit.presentation.RegisterScreen
+import io.quantumone.cardinalkit.presentation.contacts.ContactsScreen
+import io.quantumone.cardinalkit.presentation.home.HomeScreen
+import io.quantumone.cardinalkit.presentation.login.ForgotPassword
+import io.quantumone.cardinalkit.presentation.login.LoginScreen
+import io.quantumone.cardinalkit.presentation.login.RegisterMethod
+import io.quantumone.cardinalkit.presentation.login.SignInMethod
+import io.quantumone.cardinalkit.presentation.main.MainScreen
+import io.quantumone.cardinalkit.presentation.onboarding.OnboardingScreen
+import io.quantumone.cardinalkit.presentation.onboarding.Review
+import io.quantumone.cardinalkit.presentation.onboarding.Signature
+import io.quantumone.cardinalkit.presentation.onboarding.WelcomeScreen
+import io.quantumone.cardinalkit.presentation.profile.ProfileScreen
+import io.quantumone.cardinalkit.presentation.profile.ReviewConsent
+import io.quantumone.cardinalkit.presentation.tasks.TasksScreen
+import io.quantumone.cardinalkit.presentation.welcome.JoinStudyScreen
 
 @OptIn(ExperimentalAnimationApi::class, ExperimentalPagerApi::class)
 @Composable

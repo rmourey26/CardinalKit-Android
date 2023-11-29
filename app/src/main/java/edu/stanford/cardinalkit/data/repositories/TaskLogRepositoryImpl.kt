@@ -1,10 +1,10 @@
-package edu.stanford.cardinalkit.data.repositories
+package io.quantumone.cardinalkit.data.repositories
 
 import com.google.firebase.firestore.CollectionReference
-import edu.stanford.cardinalkit.common.Constants
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.domain.models.tasks.CKTaskLog
-import edu.stanford.cardinalkit.domain.repositories.TaskLogRepository
+import io.quantumone.cardinalkit.common.Constants
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.domain.models.tasks.CKTaskLog
+import io.quantumone.cardinalkit.domain.repositories.TaskLogRepository
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.flow

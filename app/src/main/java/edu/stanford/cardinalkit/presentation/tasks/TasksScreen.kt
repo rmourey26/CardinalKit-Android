@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.tasks
+package io.quantumone.cardinalkit.presentation.tasks
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -21,10 +21,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
-import edu.stanford.cardinalkit.R
-import edu.stanford.cardinalkit.presentation.home.components.TaskComponent
-import edu.stanford.cardinalkit.presentation.tasks.components.DatePickerTimeline
-import edu.stanford.cardinalkit.presentation.tasks.components.rememberDatePickerState
+import io.quantumone.cardinalkit.R
+import io.quantumone.cardinalkit.presentation.home.components.TaskComponent
+import io.quantumone.cardinalkit.presentation.tasks.components.DatePickerTimeline
+import io.quantumone.cardinalkit.presentation.tasks.components.rememberDatePickerState
 import java.time.LocalDate
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalComposeUiApi::class)

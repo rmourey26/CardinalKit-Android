@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.health
+package io.quantumone.cardinalkit.presentation.health
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.health.connect.client.permission.HealthPermission
@@ -8,7 +8,7 @@ import androidx.health.connect.client.units.Mass
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import edu.stanford.cardinalkit.services.HealthConnectManager
+import io.quantumone.cardinalkit.services.HealthConnectManager
 import kotlinx.coroutines.launch
 import java.time.Instant
 import java.time.LocalDate

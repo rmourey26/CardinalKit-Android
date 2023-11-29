@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.onboarding
+package io.quantumone.cardinalkit.presentation.onboarding
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.ExperimentalAnimationApi
@@ -42,8 +42,8 @@ import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.HorizontalPagerIndicator
 import com.google.accompanist.pager.PagerState
 import com.google.accompanist.pager.rememberPagerState
-import edu.stanford.cardinalkit.R
-import edu.stanford.cardinalkit.presentation.navigation.Screens
+import io.quantumone.cardinalkit.R
+import io.quantumone.cardinalkit.presentation.navigation.Screens
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

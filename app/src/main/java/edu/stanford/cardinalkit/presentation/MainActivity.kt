@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation
+package io.quantumone.cardinalkit.presentation
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
@@ -13,12 +13,12 @@ import androidx.health.connect.client.PermissionController
 import androidx.lifecycle.lifecycleScope
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import dagger.hilt.android.AndroidEntryPoint
-import edu.stanford.cardinalkit.BuildConfig
-import edu.stanford.cardinalkit.presentation.health.HealthViewModel
-import edu.stanford.cardinalkit.presentation.login.LoginViewModel
-import edu.stanford.cardinalkit.presentation.navigation.CKNavHost
-import edu.stanford.cardinalkit.presentation.navigation.Screens
-import edu.stanford.cardinalkit.ui.theme.CardinalKitTheme
+import io.quantumone.cardinalkit.BuildConfig
+import io.quantumone.cardinalkit.presentation.health.HealthViewModel
+import io.quantumone.cardinalkit.presentation.login.LoginViewModel
+import io.quantumone.cardinalkit.presentation.navigation.CKNavHost
+import io.quantumone.cardinalkit.presentation.navigation.Screens
+import io.quantumone.cardinalkit.ui.theme.CardinalKitTheme
 import kotlinx.coroutines.launch
 import timber.log.Timber
 

@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.common
+package io.quantumone.cardinalkit.common
 
 object Config {
 

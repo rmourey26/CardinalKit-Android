@@ -1,11 +1,11 @@
-package edu.stanford.cardinalkit.presentation.main.components
+package io.quantumone.cardinalkit.presentation.main.components
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckBox
 import androidx.compose.material.icons.filled.Contacts
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Person
-import edu.stanford.cardinalkit.presentation.navigation.Screens
+import io.quantumone.cardinalkit.presentation.navigation.Screens
 
 object TabBarItems {
     val BarItems = listOf(

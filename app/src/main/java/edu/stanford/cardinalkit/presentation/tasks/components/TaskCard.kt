@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.tasks.components
+package io.quantumone.cardinalkit.presentation.tasks.components
 
 import android.content.Intent
 import android.widget.Toast
@@ -26,15 +26,15 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
-import edu.stanford.cardinalkit.R
-import edu.stanford.cardinalkit.common.Constants
-import edu.stanford.cardinalkit.common.toLocalDate
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.domain.models.tasks.CKTask
-import edu.stanford.cardinalkit.domain.models.tasks.CKTaskCategory
-import edu.stanford.cardinalkit.domain.models.tasks.CKTaskLog
-import edu.stanford.cardinalkit.presentation.surveys.SurveyActivity
-import edu.stanford.cardinalkit.presentation.tasks.TasksViewModel
+import io.quantumone.cardinalkit.R
+import io.quantumone.cardinalkit.common.Constants
+import io.quantumone.cardinalkit.common.toLocalDate
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.domain.models.tasks.CKTask
+import io.quantumone.cardinalkit.domain.models.tasks.CKTaskCategory
+import io.quantumone.cardinalkit.domain.models.tasks.CKTaskLog
+import io.quantumone.cardinalkit.presentation.surveys.SurveyActivity
+import io.quantumone.cardinalkit.presentation.tasks.TasksViewModel
 import java.time.LocalDate
 
 @Composable

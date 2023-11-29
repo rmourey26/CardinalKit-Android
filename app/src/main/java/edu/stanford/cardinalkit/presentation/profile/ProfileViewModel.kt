@@ -1,11 +1,11 @@
-package edu.stanford.cardinalkit.presentation.profile
+package io.quantumone.cardinalkit.presentation.profile
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.domain.repositories.AuthRepository
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.domain.repositories.AuthRepository
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

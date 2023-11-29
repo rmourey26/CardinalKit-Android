@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.contacts
+package io.quantumone.cardinalkit.presentation.contacts
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -18,10 +18,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
-import edu.stanford.cardinalkit.R
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.presentation.common.ProgressIndicator
-import edu.stanford.cardinalkit.presentation.contacts.components.ContactCard
+import io.quantumone.cardinalkit.R
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.presentation.common.ProgressIndicator
+import io.quantumone.cardinalkit.presentation.contacts.components.ContactCard
 import timber.log.Timber
 
 @Preview

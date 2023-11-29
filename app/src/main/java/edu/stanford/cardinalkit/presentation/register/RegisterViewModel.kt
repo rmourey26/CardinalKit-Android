@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.register
+package io.quantumone.cardinalkit.presentation.register
 
 import android.text.TextUtils
 import android.util.Patterns
@@ -6,9 +6,9 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import edu.stanford.cardinalkit.common.Constants
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.domain.usecases.auth.AuthUseCases
+import io.quantumone.cardinalkit.common.Constants
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.domain.usecases.auth.AuthUseCases
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 import javax.inject.Named

@@ -1,7 +1,7 @@
-package edu.stanford.cardinalkit.domain.repositories
+package io.quantumone.cardinalkit.domain.repositories
 
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.domain.models.tasks.CKTask
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.domain.models.tasks.CKTask
 import kotlinx.coroutines.flow.Flow
 
 interface TasksRepository {

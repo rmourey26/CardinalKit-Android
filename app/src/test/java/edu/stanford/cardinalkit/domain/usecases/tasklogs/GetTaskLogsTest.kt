@@ -1,10 +1,10 @@
-package edu.stanford.cardinalkit.domain.usecases.tasklogs
+package io.quantumone.cardinalkit.domain.usecases.tasklogs
 
 import com.google.common.truth.Truth.assertThat
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.domain.models.tasks.CKTaskLog
-import edu.stanford.cardinalkit.domain.repositories.TaskLogRepository
-import edu.stanford.cardinalkit.domain.usecases.tasklogs.data.repository.FakeTaskLogRepository
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.domain.models.tasks.CKTaskLog
+import io.quantumone.cardinalkit.domain.repositories.TaskLogRepository
+import io.quantumone.cardinalkit.domain.usecases.tasklogs.data.repository.FakeTaskLogRepository
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import org.junit.Before

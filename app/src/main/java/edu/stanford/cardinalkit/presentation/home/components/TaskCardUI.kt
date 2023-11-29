@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.home.components
+package io.quantumone.cardinalkit.presentation.home.components
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.Arrangement
@@ -32,8 +32,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
-import edu.stanford.cardinalkit.R
-import edu.stanford.cardinalkit.presentation.tasks.TasksViewModel
+import io.quantumone.cardinalkit.R
+import io.quantumone.cardinalkit.presentation.tasks.TasksViewModel
 
 @Composable
 fun TaskCardUI(

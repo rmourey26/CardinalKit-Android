@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.surveys
+package io.quantumone.cardinalkit.presentation.surveys
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -9,9 +9,9 @@ import ca.uhn.fhir.context.FhirVersionEnum
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import dagger.hilt.android.lifecycle.HiltViewModel
-import edu.stanford.cardinalkit.common.Constants
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.domain.usecases.surveys.SurveysUseCases
+import io.quantumone.cardinalkit.common.Constants
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.domain.usecases.surveys.SurveysUseCases
 import kotlinx.coroutines.launch
 import org.hl7.fhir.r4.model.QuestionnaireResponse
 import javax.inject.Inject

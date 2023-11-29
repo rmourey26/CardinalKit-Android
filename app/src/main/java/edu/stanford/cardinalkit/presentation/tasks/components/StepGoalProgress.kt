@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.tasks.components
+package io.quantumone.cardinalkit.presentation.tasks.components
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -13,10 +13,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
-import edu.stanford.cardinalkit.domain.models.tasks.CKTask
-import edu.stanford.cardinalkit.domain.models.tasks.CKTaskLog
-import edu.stanford.cardinalkit.presentation.health.HealthViewModel
-import edu.stanford.cardinalkit.presentation.tasks.TasksViewModel
+import io.quantumone.cardinalkit.domain.models.tasks.CKTask
+import io.quantumone.cardinalkit.domain.models.tasks.CKTaskLog
+import io.quantumone.cardinalkit.presentation.health.HealthViewModel
+import io.quantumone.cardinalkit.presentation.tasks.TasksViewModel
 
 @Composable
 fun StepGoalProgress(

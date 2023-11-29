@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.home.components
+package io.quantumone.cardinalkit.presentation.home.components
 
 import android.widget.Toast
 import androidx.compose.foundation.lazy.LazyColumn
@@ -7,10 +7,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.presentation.common.ProgressIndicator
-import edu.stanford.cardinalkit.presentation.tasks.TasksViewModel
-import edu.stanford.cardinalkit.presentation.tasks.components.TaskCard
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.presentation.common.ProgressIndicator
+import io.quantumone.cardinalkit.presentation.tasks.TasksViewModel
+import io.quantumone.cardinalkit.presentation.tasks.components.TaskCard
 import timber.log.Timber
 
 @Preview

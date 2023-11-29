@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.contacts.components
+package io.quantumone.cardinalkit.presentation.contacts.components
 
 import android.app.Activity
 import android.content.Context
@@ -35,8 +35,8 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.startActivity
 import androidx.core.os.bundleOf
-import edu.stanford.cardinalkit.R
-import edu.stanford.cardinalkit.domain.models.Contact
+import io.quantumone.cardinalkit.R
+import io.quantumone.cardinalkit.domain.models.Contact
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

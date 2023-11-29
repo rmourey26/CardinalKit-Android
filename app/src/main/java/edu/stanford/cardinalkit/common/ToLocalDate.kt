@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.common
+package io.quantumone.cardinalkit.common
 
 import java.time.LocalDate
 import java.time.ZoneId

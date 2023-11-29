@@ -1,10 +1,10 @@
-package edu.stanford.cardinalkit.data.repositories
+package io.quantumone.cardinalkit.data.repositories
 
 import android.content.Context
 import com.google.firebase.firestore.CollectionReference
-import edu.stanford.cardinalkit.common.Constants
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.domain.repositories.SurveyRepository
+import io.quantumone.cardinalkit.common.Constants
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.domain.repositories.SurveyRepository
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.tasks.await
 import java.io.IOException

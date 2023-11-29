@@ -1,7 +1,7 @@
-package edu.stanford.cardinalkit.domain.usecases.auth
+package io.quantumone.cardinalkit.domain.usecases.auth
 
 import com.google.firebase.auth.AuthCredential
-import edu.stanford.cardinalkit.domain.repositories.AuthRepository
+import io.quantumone.cardinalkit.domain.repositories.AuthRepository
 
 class SignInWithGoogle(
     private val repository: AuthRepository

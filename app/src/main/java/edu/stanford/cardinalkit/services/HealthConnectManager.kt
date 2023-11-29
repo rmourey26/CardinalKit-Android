@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.services
+package io.quantumone.cardinalkit.services
 
 import android.content.Context
 import androidx.compose.runtime.mutableStateOf

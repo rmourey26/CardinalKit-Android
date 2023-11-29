@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation
+package io.quantumone.cardinalkit.presentation
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.Arrangement
@@ -44,11 +44,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
-import edu.stanford.cardinalkit.R
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.presentation.common.ProgressIndicator
-import edu.stanford.cardinalkit.presentation.navigation.Screens
-import edu.stanford.cardinalkit.presentation.register.RegisterViewModel
+import io.quantumone.cardinalkit.R
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.presentation.common.ProgressIndicator
+import io.quantumone.cardinalkit.presentation.navigation.Screens
+import io.quantumone.cardinalkit.presentation.register.RegisterViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

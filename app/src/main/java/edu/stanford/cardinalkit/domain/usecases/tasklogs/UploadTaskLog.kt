@@ -1,7 +1,7 @@
-package edu.stanford.cardinalkit.domain.usecases.tasklogs
+package io.quantumone.cardinalkit.domain.usecases.tasklogs
 
-import edu.stanford.cardinalkit.domain.models.tasks.CKTaskLog
-import edu.stanford.cardinalkit.domain.repositories.TaskLogRepository
+import io.quantumone.cardinalkit.domain.models.tasks.CKTaskLog
+import io.quantumone.cardinalkit.domain.repositories.TaskLogRepository
 
 class UploadTaskLog(
     private val repository: TaskLogRepository

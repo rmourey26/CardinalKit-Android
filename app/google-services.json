@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:108938987400:android:572a8a664ba47d4cb4dc3d",
         "android_client_info": {
-          "package_name": "edu.stanford.cardinalkit"
+          "package_name": "io.quantumone.cardinalkit"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "108938987400-4ischmr3vd5kctdhud0pg0mh0vrnjbk1.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "edu.stanford.cardinalkit",
+            "package_name": "io.quantumone.cardinalkit",
             "certificate_hash": "0177ab92981b1c5c7e447b88086a965845ced587"
           }
         },
@@ -42,7 +42,7 @@
               "client_id": "108938987400-240756p197dbqn9e2jcv13l12voabev3.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "edu.stanford.cardinalkit"
+                "bundle_id": "io.quantumone.cardinalkit"
               }
             }
           ]

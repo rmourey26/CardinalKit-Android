@@ -1,6 +1,6 @@
-package edu.stanford.cardinalkit.domain.usecases.tasks
+package io.quantumone.cardinalkit.domain.usecases.tasks
 
-import edu.stanford.cardinalkit.domain.repositories.TasksRepository
+import io.quantumone.cardinalkit.domain.repositories.TasksRepository
 
 class GetTasks(
     private val repository: TasksRepository

@@ -1,6 +1,6 @@
-package edu.stanford.cardinalkit.presentation.navigation
+package io.quantumone.cardinalkit.presentation.navigation
 
-import edu.stanford.cardinalkit.common.Constants
+import io.quantumone.cardinalkit.common.Constants
 
 sealed class Screens(val route: String) {
     object OnboardingScreen : Screens(Constants.ONBOARDING_SCREEN)

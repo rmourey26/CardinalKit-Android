@@ -1,4 +1,4 @@
-package edu.stanford.cardinalkit.presentation.surveys
+package io.quantumone.cardinalkit.presentation.surveys
 
 import android.os.Bundle
 import android.view.Menu
@@ -9,12 +9,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.commit
 import com.google.android.fhir.datacapture.QuestionnaireFragment
 import dagger.hilt.android.AndroidEntryPoint
-import edu.stanford.cardinalkit.R
-import edu.stanford.cardinalkit.common.Constants
-import edu.stanford.cardinalkit.domain.models.Response
-import edu.stanford.cardinalkit.domain.models.tasks.CKTaskLog
-import edu.stanford.cardinalkit.presentation.profile.ProfileViewModel
-import edu.stanford.cardinalkit.presentation.tasks.TasksViewModel
+import io.quantumone.cardinalkit.R
+import io.quantumone.cardinalkit.common.Constants
+import io.quantumone.cardinalkit.domain.models.Response
+import io.quantumone.cardinalkit.domain.models.tasks.CKTaskLog
+import io.quantumone.cardinalkit.presentation.profile.ProfileViewModel
+import io.quantumone.cardinalkit.presentation.tasks.TasksViewModel
 import org.hl7.fhir.r4.model.QuestionnaireResponse
 import java.util.*
 
